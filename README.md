@@ -1,63 +1,63 @@
 # LinkedIn Jobs Scraper
 
-Ini adalah proyek Python untuk mengumpulkan data pekerjaan dari LinkedIn menggunakan pustaka `linkedin-jobs-scraper` dan Selenium.
+This is a Python project for collecting job data from LinkedIn using the `linkedin-jobs-scraper` library and Selenium.
 
 ## Prerequisites
 
-Sebelum memulai, pastikan Anda memiliki Python dan pip terinstal di sistem Anda. Jika belum, Anda dapat mengunduh Python dari [python.org](https://www.python.org/downloads/) dan mengikuti petunjuk instalasi untuk sistem operasi Anda.
+Before you begin, ensure you have Python and pip installed on your system. If not, you can download Python from [python.org](https://www.python.org/downloads/) and follow the installation instructions for your operating system.
 
-## Langkah-langkah Instalasi
+## Installation Steps
 
-### 1. Clone Repositori
+### 1. Clone the Repository
 
-Clone repositori ini dari GitHub dengan perintah berikut:
+Clone the repository from GitHub using the following command:
 
 <pre>git clone https://github.com/LuthfiAjax/linkedin-jobs-scrapping.git</pre>
 
-### 2. Masuk ke Direktori Proyek
+### 2. Navigate to the Project Directory
 
-Masuk ke direktori proyek yang telah Anda clone:
+Change to the project directory you just cloned:
 
 <pre>cd linkedin-jobs-scrapping</pre>
 
-### 3. Buat dan Aktifkan Lingkungan Virtual
+### 3. Create and Activate a Virtual Environment
 
-Buat lingkungan virtual baru untuk proyek ini:
+Create a new virtual environment for this project:
 
 <pre>python -m venv myenv</pre>
 
-Aktifkan lingkungan virtual:
+Activate the virtual environment:
 
-- **Untuk macOS/Linux:**
+- **For macOS/Linux:**
 
 <pre>source myenv/bin/activate</pre>
 
-- **Untuk Windows:**
+- **For Windows:**
 
 <pre>myenv\Scripts\activate</pre>
 
-### 4. Instalasi Dependensi
+### 4. Install Dependencies
 
-Instal semua dependensi yang diperlukan dengan menggunakan `pip`:
+Install all the required dependencies using `pip`:
 
 <pre>pip install -r requirements.txt</pre>
 
-### 5. Konfigurasi dan Menjalankan Scraper
+### 5. Configure and Run the Scraper
 
-Sebelum menjalankan scraper, pastikan Anda sudah mengatur `linkedin_scraper.py` sesuai kebutuhan Anda. Kemudian, jalankan file Python untuk memulai scraping:
+Before running the scraper, make sure to configure `linkedin_scraper.py` as needed. Then, run the Python file to start the scraping:
 
 <pre>python linkedin_scraper.py</pre>
 
-## Penjelasan
+## Explanation
 
-- `linkedin_scraper.py` adalah file utama yang menjalankan proses scraping. Pastikan untuk mengonfigurasi pengaturan di dalamnya sesuai kebutuhan.
+- `linkedin_scraper.py` is the main file that runs the scraping process. Ensure you configure settings within it according to your needs.
 
 ## Troubleshooting
 
-Jika Anda mengalami masalah saat menjalankan scraper, pastikan:
+If you encounter issues while running the scraper, ensure:
 
-1. Lingkungan virtual Anda aktif.
-2. Semua dependensi telah terinstal dengan benar.
-3. Versi Python dan pip sesuai dengan yang diperlukan oleh proyek.
+1. Your virtual environment is activated.
+2. All dependencies are correctly installed.
+3. Your Python and pip versions are compatible with the project's requirements.
 
-Jika Anda masih mengalami kesulitan, periksa log kesalahan untuk informasi lebih lanjut atau kunjungi [issues di GitHub](https://github.com/LuthfiAjax/linkedin-jobs-scrapping/issues) untuk bantuan.
+If you still face difficulties, check the error logs for more details or visit the [GitHub issues page](https://github.com/LuthfiAjax/linkedin-jobs-scrapping/issues) for assistance.
